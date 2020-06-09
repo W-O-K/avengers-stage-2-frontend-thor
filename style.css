@@ -1,5 +1,5 @@
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
   font-family: "Open Sans", Helvetica, sans-serif;
 }
 
@@ -16,7 +16,8 @@
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -37,8 +38,9 @@
 }
 
 /* Add trasparent background on hover */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption*/
@@ -53,3 +55,79 @@
   text-align: center;
 }
 
+/* room-section-showcase */
+.room-section {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  text-transform: uppercase;
+}
+.room-section-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.room-tag {
+  color: #06a7df;
+  font-size: 30px;
+  font-weight: 10;
+}
+
+.room-tag p {
+  display: inline-block;
+  position: absolute;
+  font-size: 16px;
+  top: -7px;
+  left: 50px;
+}
+
+.explore-btn {
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 246px;
+  height: 61px;
+  border-radius: 30px;
+  padding: auto 50px;
+  background-color: #06a7df;
+  border: none;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.explore-btn:hover {
+  background-color: #b5d7e2;
+}
+
+.room-section-showcase {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 96px;
+}
+.showcase-container {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.showcase img {
+  width: 400px;
+  height: 385px;
+  border-radius: 50px;
+}
+
+/* media query */
+@media only screen and (max-width: 375px) {
+  .showcase img {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+  }
+  .explore-btn {
+    font-size: 10px;
+    width: 160px;
+    height: 50px;
+  }
+}
