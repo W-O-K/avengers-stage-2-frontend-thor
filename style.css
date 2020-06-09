@@ -19,6 +19,11 @@
   src: url("./fonts/Nunito-Light.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Great Vibes";
+  src: url("./fonts/GreatVibes-Regular.ttf") format("truetype");
+}
+
 /* the image gallery */
 .image-gallery {
   max-width: 100%;
@@ -264,3 +269,60 @@ form p{
 }
 
 /* Room Card End */
+
+/* header */
+header>a{
+
+  float:right; 
+  text-decoration:none;
+  font-family:'Nunito Sans',sans-serif;
+  font-size:22px;
+  line-height:30px;
+  color: #707070;
+  height:30px;
+  padding-right:60px;
+  padding-top:20px;
+}
+
+.menu-bar{
+    width:24px;
+    height:3px;
+    background-color:#F4821E;
+    margin-top:5px;
+}
+
+header{
+    height:70px;
+    background-color:white;
+    
+}
+
+#hotel-name{
+    position:relative;
+    padding-left:30px;
+    top:5px;
+}
+
+#octavian{
+    position:absolute;
+    font-family:'Great Vibes';
+    font-size:50px;
+    color:#F4821E;
+}
+
+#hotels-tag{
+    position:absolute;
+    top:42px;
+    font-size:15px;
+    font-family: 'Nunito Sans';
+    line-height:20px;
+    left:105px;
+    color:#06A7DF;
+
+}
+
+header>a:hover{
+    color:#06A7DF;
+}
+
+/* header ends here */
