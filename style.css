@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
   margin: 0;
   padding: 0;
   outline: none;
@@ -75,6 +76,7 @@
   width: 100%;
   text-align: center;
 }
+
 
 /* header */
 header > a {
@@ -187,10 +189,134 @@ header > a:hover {
   transition: transform 0.2s ease-out;
   cursor: pointer;
   overflow: hidden;
+=======
+
+/*form in the GALLERY begins*/
+.form-holder {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 15px;
+  width: 80%;
+  margin: 0 10%;
+  border-radius:30px 30px 30px 30px;  
+  margin-bottom: 30px;
 }
-.showcase-container {
+.form-holder a{
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;           
+  }
+.curved{
+padding: 15px;
+width: 25%;
+background-color: white;
+}
+.box{
+padding: 15px;
+width: 25%;
+margin: 0 1px;
+background-color: white;
+}
+.box a{
+  margin-left: 50px;
+}
+.fa-caret-down, .fa-caret-right {
+  margin-left: 40px;
+}
+.fa-calendar-alt{
+  margin-left: 40px;
+}
+.left {
+  border-radius:30px 0px 0px 30px;
+  border-color: white;
+}
+.right{
+  border-radius:0px 30px 30px 0px;
+  background-color: #F4821E;
+}
+.right a{
+  margin-left: 50px;
+}
+.dropdown{
+  border-color: white; 
+}
+form p{
+  color: black;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+.dropdown-content a:hover {
+  background-color: #F4821E;
+}
+
+.box:hover{
+    background-color:#F4821E ;
+}
+
+.right:hover{
+      background-color:#F4821E;
+}
+
+.left:hover{
+  background-color:#F4821E;
+}
+ /* Links inside the dropdown */
+ .dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+/*FORM IN THE GALLERY*/
+
+/* ROOMS CARD SECTION*/
+.rooms-card-holder {
+  width: 95%;
+  max-width: 1500px;
   margin: 0 auto;
+
+}
+
+/* Room Card */
+.rooms-card-holder img {
   width: 100%;
+  border-radius: 61px;
+  height: 100%;
+}
+
+.room-card {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  column-gap: 5%;
+  align-items: center;
+  width: 100%;
+
   font-size: 70px;
   font-family: "Nunito Sans", sans-serif;
   display: flex;
@@ -199,10 +325,75 @@ header > a:hover {
   align-items: center;
   text-align: center;
   transition: transform 0.2s ease-out;
+
+  height: 350px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
 }
-.showcase img:hover {
-  filter: grayscale(30%);
-  transform: scale(1.1);
+
+.room-card h2 {
+  padding-bottom: 1rem;
+  font-weight: 900;
+  font-family: "Nunito Bold";
+  text-transform: uppercase;
+}
+
+.card-image {
+  height: 100%;
+  padding-right: 1rem;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-content div {
+  width: 50%;
+}
+
+.card-info h2 {
+  font-size: 1.563rem;
+  line-height: 2.125rem;
+  color: #f4821e;
+}
+
+.card-info p {
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  color: #707070;
+  font-family: "Nunito Regular"
+}
+
+.card-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card-price h2 {
+  font-size: 1.875rem;
+  line-height: 2.563rem;
+  color: #707070;
+}
+
+.card-price button {
+  border: none;
+  color: #ffffff;
+  background: #06a7df;
+  width: 184px;
+  height: 57px;
+  font-size: 1.375rem;
+  line-height: 1.875;
+  transition: 0.4s;
+  cursor: pointer;
+  font-family: "Nunito Light";
+
+}
+
+.card-price button:hover {
+  opacity: 0.9;
 }
 .showcase-container p {
   margin-top: 50px;
@@ -246,6 +437,7 @@ form p {
   color: black;
 }
 /*FORM IN THE GALLERY*/
+
 
 /*Css for the form*/
 .email {
@@ -401,3 +593,268 @@ form p {
 }
 
 /* Room Card End */
+
+/* Room Card End */
+
+/* header */
+header>a{
+
+  float:right; 
+  text-decoration:none;
+  font-family:'Nunito Sans',sans-serif;
+  font-size:22px;
+  line-height:30px;
+  color: #707070;
+  height:30px;
+  padding-right:60px;
+  padding-top:20px;
+}
+
+.menu-bar{
+    width:24px;
+    height:3px;
+    background-color:#F4821E;
+    margin-top:5px;
+}
+
+header{
+    height:70px;
+    background-color:white;
+    
+}
+
+#hotel-name{
+    position:relative;
+    padding-left:30px;
+    top:5px;
+}
+
+#octavian{
+    position:absolute;
+    font-family:'Great Vibes';
+    font-size:50px;
+    color:#F4821E;
+}
+
+#hotels-tag{
+    position:absolute;
+    top:42px;
+    font-size:15px;
+    font-family: 'Nunito Sans';
+    line-height:20px;
+    left:105px;
+    color:#06A7DF;
+
+}
+
+header>a:hover{
+    color:#06A7DF;
+}
+
+/* header ends here */
+/* Contact Us*/
+.cover{
+  display: flex;
+  flex-direction: column;
+  padding-top:100px; 
+  padding-bottom: 100px;
+  width: 460px;
+  margin: 0 auto;
+}
+.name
+{ display: flex;
+  width: inherit;
+  justify-content: space-between;
+}
+
+.email {
+  margin-top: 30px;
+  width: 100%;
+  padding: 1em 2em;
+  background:  rgb(243, 243, 243);
+  border-radius: 4px;
+  border: 1px solid  rgb(243, 243, 243);
+  color: black;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.19), 0 0px 6px rgba(0,0,0,0.23);
+  
+}
+
+#first-name {
+  width: 45%;
+  padding: 1em 2em;
+  background:  rgb(243, 243, 243);
+  border-radius: 4px;
+  border: 1px solid  rgb(243, 243, 243);
+  color: black;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.19), 0 0px 6px rgba(0,0,0,0.23);
+ 
+}
+#last-name {
+  width: 45%;
+  padding: 1em 2em;
+  background:  rgb(243, 243, 243);
+  border-radius: 4px;
+  border: 1px solid  rgb(243, 243, 243);
+  color: black;
+  padding-right: 20px;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.19), 0 0px 6px rgba(0,0,0,0.23);
+}
+.subject {
+  margin-top: 30px;
+  width: 100%;
+  padding: 1em 2em;
+  background: rgb(243, 243, 243);
+  border: 1px solid rgb(243, 243, 243);
+  box-shadow: 0 0px 20px rgba(0,0,0,0.19), 0 0px 6px rgba(0,0,0,0.23);
+}
+.message {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  padding: 1em 2em;
+  background: rgb(243, 243, 243);
+  border: 1px solid rgb(243, 243, 243);
+  text-align: start;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.19), 0 0px 6px rgba(0,0,0,0.23);
+}
+.send-button-area{
+  width: 100%;
+}
+.send-button {
+  padding: 1em 2em;
+  background-color:rgba(255, 166, 0, 0.897);
+  border: 1px solid rgba(255, 166, 0, 0.897);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  margin-top: 30px;
+  cursor: pointer;
+  float: right;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
+}
+/* Contact Us ends*/
+  /*Footer design implementation by @thetabyte begins here*/
+  footer{
+    background-color: #06A7DF;
+    padding: 50px 0px;
+    font-family: "Nunito Light";
+}
+.footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+.left-col{
+    margin: 20px 0;
+}
+.left-col a{
+    color: black;
+    margin-right: 25px;
+    text-decoration: none;
+    transition: .3s linear;
+    font-size: 12px;
+    font-family: "Nunito Light";
+}
+.left-col a:hover{
+    color: #f2f2f2;
+}
+p{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 13px;
+    font-family: "Nunito Light";
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.txtb{
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: rgb(29, 26, 26);
+    font-weight: 500;
+    min-width: 260px;
+    font-family: "Nunito Light";
+}
+.btn{
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #f2f2f2;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #F4821E;
+    border: none;
+    font-family: "Nunito Light";
+    cursor: pointer;
+    transition: opacity .3s linear;
+}
+.btn:hover{
+    opacity: .7;
+}
+/*RESPONSIVENESS for footer design implementation by @thetabyte*/
+@media screen and (max-width:960px){
+    .footer-container{
+        max-width: 600px;
+    }
+    .left-col{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width:700px){
+    .footer-container{
+        max-width: 400px;
+        margin-bottom: 0;
+    }
+    .btn{        
+        margin: 0;
+        width: 100%;
+    }
+    .newsletter-form{
+        width: 50%;
+        margin: 20px;
+        justify-content: center;
+    }
+    .left-col a{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:320px){
+    .footer-container{
+        max-width: 300px;
+        flex-wrap: wrap;
+    }
+    .newsletter-form{
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+    .btn{
+        margin: 0;
+        padding: auto;
+        width: 50%;
+    }
+    .left-col a{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/*END OF FOOTER RESPONSIVENESS and style implementation by @thetabyte*/
+
