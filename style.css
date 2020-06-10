@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 * {
- seyeOlajuyin
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -25,7 +24,6 @@
 @font-face {
   font-family: "Great Vibes";
   src: url("./fonts/GreatVibes-Regular.ttf") format("truetype");
-css_branch
 }
 
 /* the image gallery */
@@ -80,7 +78,6 @@ css_branch
   text-align: center;
 }
 
- seyeOlajuyin
 /* room-section-showcase */
 
 .room-section {
@@ -443,4 +440,3 @@ header>a:hover{
 }
 
 /* header ends here */
-  css_branch
