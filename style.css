@@ -57,6 +57,7 @@
 }
 
 /* room-section-showcase */
+
 .room-section {
   position: relative;
   width: 100%;
@@ -99,6 +100,7 @@
   background-color: #b5d7e2;
 }
 
+/* main showcase */
 .room-section-showcase {
   max-width: 100%;
   margin: 0 auto;
@@ -127,6 +129,7 @@
 }
 
 /* media query */
+
 @media only screen and (max-width: 375px) {
   .showcase img {
     border-radius: 10px;
