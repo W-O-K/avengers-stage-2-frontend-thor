@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+
+.section5 {
+    position: absolute;
+    width: 1366px;
+    height: 769px;
+    background-color: #FFFFFF;
+}
+
+.outer {
+    background-color:white;
+    top: 52px;
+    left: 55px;
+    width:47px; /* You can define it by % also */
+    height:47px; /* You can define it by % also */
+    position:relative;
+    border:1px solid #06A7DF;
+    border-radius: 50%;
+}
+
+
+.inner {
+    background-color:#06A7DF;
+    top: 25%; left:25%; /* of the container */
+    width:49%; /* of the container */
+    height:49%; /* of the container */
+    position: relative;
+    border:1px solid white;
+    border-radius: 50%;
+}
+
+.RM {
+    position: absolute;
+    width: 92px;
+    height: 34px;
+    left: 119px;
+    top: 58px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+    color: #06A7DF;
+}
+
+/* .grp6 {
+    position: absolute;
+    width: 248px;
+    height: 61px;
+    left: 1062px;
+    top: 43px;
+} */
+
+
+button {
+    position: absolute;
+    width: 248px;
+    height: 61px;
+    left: 1062px;
+    top: 43px;
+    background-color: #06A7DF;
+    border-radius: 30px;    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+/* .grp5 {
+    position: absolute;
+    width: 1255px;
+    height: 443px;
+    left: 55px;
+    top: 200px;
+} */
+
+.single {
+    position: absolute;
+    width: 385px;
+    height: 385px;
+    left: 55px;
+    top: 200px;
+    border-radius: 61px;
+}
+
+.one {
+    position: absolute;
+    width: 170px;
+    height: 34px;
+    left: 162px;
+    top: 609px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+.double {
+    position: absolute;
+    width: 385px;
+    height: 385px;
+    left: 490px;
+    top: 200px;
+    border-radius: 61px;
+}
+.two {
+    position: absolute;
+    width: 184px;
+    height: 34px;
+    left: 598px;
+    top: 609px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.suite {
+    position: absolute;
+    width: 385px;
+    height: 385px;
+    left: 925px;
+    top: 200px;
+    border-radius: 61px;
+}
+.three {
+    position: absolute;
+    width: 70px;
+    height: 34px;
+    left: 1083px;
+    top: 609px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+
