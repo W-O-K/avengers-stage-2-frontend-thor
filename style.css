@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap");
 * {
+ seyeOlajuyin
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,6 +25,7 @@
 @font-face {
   font-family: "Great Vibes";
   src: url("./fonts/GreatVibes-Regular.ttf") format("truetype");
+css_branch
 }
 
 /* the image gallery */
@@ -76,6 +80,119 @@
   text-align: center;
 }
 
+ seyeOlajuyin
+/* room-section-showcase */
+
+.room-section {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  text-transform: uppercase;
+}
+.room-section-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.room-tag {
+  color: #06a7df;
+  font-size: 30px;
+  font-weight: 10;
+}
+
+.room-tag p {
+  display: inline-block;
+  position: absolute;
+  font-size: 16px;
+  top: -7px;
+  left: 50px;
+}
+
+.explore-btn {
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 246px;
+  height: 61px;
+  border-radius: 30px;
+  padding: auto 50px;
+  background-color: #06a7df;
+  border: none;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.explore-btn:hover {
+  background-color: #b5d7e2;
+}
+
+/* main showcase */
+.room-section-showcase {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 96px;
+}
+.showcase-container {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.showcase img {
+  width: 400px;
+  height: 385px;
+  border-radius: 50px;
+  transition: transform 0.2s ease-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+.showcase img:hover {
+  filter: grayscale(30%);
+  transform: scale(1.1);
+}
+
+/* media query */
+
+@media only screen and (max-width: 375px) {
+  .showcase img {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+  }
+  .explore-btn {
+    font-size: 10px;
+    width: 160px;
+    height: 50px;
+  }
+  .room-tag p {
+    font-size: 12px;
+    top: -1px;
+    left: 40px;
+  }
+  .room-section-showcase {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .room-section {
+    padding: 0 55px;
+    font-size: 20px;
+  }
+  .room-tag p {
+    left: 100px;
+    top: -15px;
+    font-size: 20px;
+  }
+
+  .showcase-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
 /*form in the GALLERY begins*/
 .form-holder {
@@ -326,3 +443,4 @@ header>a:hover{
 }
 
 /* header ends here */
+  css_branch
