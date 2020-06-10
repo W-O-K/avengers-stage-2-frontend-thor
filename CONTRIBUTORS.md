@@ -14,3 +14,5 @@
 -  [@Operah](https://github.com/operah24)
 
 -  [@thetabyte](https://github.com/thetabyte)
+
+-  [@osaze](https://github.com/itszael)
