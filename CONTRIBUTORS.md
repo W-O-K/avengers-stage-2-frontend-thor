@@ -3,4 +3,3 @@
 
 -  [@ifatoki](https://github.com/ifatoki)
 
-- [@Oyinbayode](https://github.com/Oyinbayode)
