@@ -343,3 +343,126 @@ header>a:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
 }
 /* Contact Us ends*/
+  /*Footer design implementation by @thetabyte begins here*/
+  footer{
+    background-color: #06A7DF;
+    padding: 50px 0px;
+    font-family: "Nunito Light";
+}
+.footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+.left-col{
+    margin: 20px 0;
+}
+.left-col a{
+    color: black;
+    margin-right: 25px;
+    text-decoration: none;
+    transition: .3s linear;
+    font-size: 12px;
+    font-family: "Nunito Light";
+}
+.left-col a:hover{
+    color: #f2f2f2;
+}
+p{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 13px;
+    font-family: "Nunito Light";
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.txtb{
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: rgb(29, 26, 26);
+    font-weight: 500;
+    min-width: 260px;
+    font-family: "Nunito Light";
+}
+.btn{
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #f2f2f2;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #F4821E;
+    border: none;
+    font-family: "Nunito Light";
+    cursor: pointer;
+    transition: opacity .3s linear;
+}
+.btn:hover{
+    opacity: .7;
+}
+/*RESPONSIVENESS for footer design implementation by @thetabyte*/
+@media screen and (max-width:960px){
+    .footer-container{
+        max-width: 600px;
+    }
+    .left-col{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width:700px){
+    .footer-container{
+        max-width: 400px;
+        margin-bottom: 0;
+    }
+    .btn{        
+        margin: 0;
+        width: 100%;
+    }
+    .newsletter-form{
+        width: 50%;
+        margin: 20px;
+        justify-content: center;
+    }
+    .left-col a{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:320px){
+    .footer-container{
+        max-width: 300px;
+        flex-wrap: wrap;
+    }
+    .newsletter-form{
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+    .btn{
+        margin: 0;
+        padding: auto;
+        width: 50%;
+    }
+    .left-col a{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/*END OF FOOTER RESPONSIVENESS and style implementation by @thetabyte*/
