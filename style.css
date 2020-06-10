@@ -47,7 +47,7 @@
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 4vw;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -82,7 +82,7 @@
   display: flex;
   flex-direction: row;
   position: absolute;
-  bottom: 15px;
+  bottom: 0;
   width: 80%;
   margin: 0 10%;
   border-radius:30px 30px 30px 30px;  
@@ -90,10 +90,10 @@
 }
 .form-holder a{
   float: left;
-  font-size: 16px;
+  font-size:1.5vw;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1vw 1vw;
   text-decoration: none;           
   }
 .curved{
@@ -108,14 +108,13 @@ margin: 0 1px;
 background-color: white;
 }
 .box a{
-  margin-left: 50px;
+  margin-left: 1vw;
 }
-.fa-caret-down, .fa-caret-right {
-  margin-left: 40px;
+
+.fa-caret-down, .fa-calendar-alt, .fa-caret-right{
+  margin-left: 2vw;
 }
-.fa-calendar-alt{
-  margin-left: 40px;
-}
+
 .left {
   border-radius:30px 0px 0px 30px;
   border-color: white;
@@ -125,7 +124,7 @@ background-color: white;
   background-color: #F4821E;
 }
 .right a{
-  margin-left: 50px;
+  margin-left: 3vw;
 }
 .dropdown{
   border-color: white; 
@@ -166,11 +165,11 @@ form p{
   text-align: left;
 }
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 1.5vw;
   border: none;
   outline: none;
   color: black;
-  padding: 14px 16px;
+  padding: 1vw 1vw;
   background-color: inherit;
   font-family: inherit; 
   margin: 0; 
@@ -190,24 +189,24 @@ form p{
 
 /* Room Card */
 .rooms-card-holder img {
-  max-width: 100%;
+  width: 25vw;
   max-height: 100%;
-  border-radius: 61px;
+  border-radius: 25px;
 }
 
 .room-card {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 350px;
+  height: 20vh;
   padding: 0.5rem;
   margin-bottom: 2rem;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .room-card h2 {
   padding-bottom: 1rem;
-  font-weight: 900;
+  font-weight: 500;
   font-family: "Nunito Bold";
   text-transform: uppercase;
 }
@@ -218,7 +217,7 @@ form p{
 }
 
 .card-content {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -229,13 +228,13 @@ form p{
 }
 
 .card-info h2 {
-  font-size: 1.563rem;
-  line-height: 2.125rem;
+  font-size: 2vw;
+  line-height: 1.5vh;
   color: #f4821e;
 }
 
 .card-info p {
-  font-size: 1.375rem;
+  font-size: 1.5vw;
   line-height: 1.875rem;
   color: #707070;
   font-family: "Nunito Regular"
@@ -248,8 +247,8 @@ form p{
 }
 
 .card-price h2 {
-  font-size: 1.875rem;
-  line-height: 2.563rem;
+  font-size: 2vw;
+  line-height: 1vh;
   color: #707070;
 }
 
@@ -257,9 +256,9 @@ form p{
   border: none;
   color: #ffffff;
   background: #06a7df;
-  width: 184px;
+  width: 15vw;
   height: 57px;
-  font-size: 1.375rem;
+  font-size: 1.5vw;
   line-height: 1.875;
   transition: 0.4s;
   cursor: pointer;
@@ -273,30 +272,32 @@ form p{
 /* Room Card End */
 
 /* header */
-header>a{
-
-  float:right; 
+.nav-div{
+  float: right;
+  margin-top: 20px;
+}
+.logo-div{
+  float: left;
+}
+.nav-div a{
+  display: inline;
   text-decoration:none;
   font-family:'Nunito Sans',sans-serif;
-  font-size:22px;
+  font-size:1.6vw;
   line-height:30px;
   color: #707070;
   height:30px;
-  padding-right:60px;
-  padding-top:20px;
+  padding-right:5vw;  
 }
 
-.menu-bar{
-    width:24px;
-    height:3px;
-    background-color:#F4821E;
-    margin-top:5px;
+.nav-div .icon{
+    color:#F4821E;
+    display: none;
 }
 
 header{
     height:70px;
-    background-color:white;
-    
+    background-color:white;    
 }
 
 #hotel-name{
@@ -410,10 +411,10 @@ header>a:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
 }
 /* Contact Us ends*/
-  /*Footer design implementation by @thetabyte begins here*/
+/*Footer design */
   footer{
     background-color: #06A7DF;
-    padding: 50px 0px;
+    padding: 10px 0px;
     font-family: "Nunito Light";
 }
 .footer-container{
@@ -432,16 +433,16 @@ header>a:hover{
     margin-right: 25px;
     text-decoration: none;
     transition: .3s linear;
-    font-size: 12px;
+    font-size: 1.5vw;
     font-family: "Nunito Light";
 }
 .left-col a:hover{
     color: #f2f2f2;
 }
-p{
+footer p{
     text-decoration: none;
     color: #f2f2f2;
-    font-size: 13px;
+    font-size: 1.5vw;
     font-family: "Nunito Light";
 }
 .newsletter-form{
@@ -453,16 +454,15 @@ p{
 .txtb{
     flex: 1;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 1.4vw;
     color: rgb(29, 26, 26);
     font-weight: 500;
-    min-width: 260px;
     font-family: "Nunito Light";
 }
 .btn{
     flex: 1;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 1.4vw;
     color: #f2f2f2;
     font-weight: 400;
     text-decoration: none;
@@ -475,61 +475,136 @@ p{
 .btn:hover{
     opacity: .7;
 }
-/*RESPONSIVENESS for footer design implementation by @thetabyte*/
-@media screen and (max-width:960px){
-    .footer-container{
-        max-width: 600px;
-    }
-    .left-col{
-        width: 100%;
-        margin-bottom: 60px;
-    }
+@media screen and (max-width:600px){
+  .nav-div a{
+    display: none;
+
+  }
+ 
+  .nav-div a.icon{
+    display: block;
+    float: right;
+
+  }
+.form-holder {
+  width: 90%;
+  margin: 0 5% 10px 5%;
 }
-@media screen and (max-width:700px){
-    .footer-container{
-        max-width: 400px;
-        margin-bottom: 0;
-    }
-    .btn{        
-        margin: 0;
-        width: 100%;
-    }
-    .newsletter-form{
-        width: 50%;
-        margin: 20px;
-        justify-content: center;
-    }
-    .left-col a{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
+.dropdown .dropbtn {
+  padding: 15%;
 }
-@media screen and (max-width:320px){
-    .footer-container{
-        max-width: 300px;
-        flex-wrap: wrap;
-    }
-    .newsletter-form{
-        display: flex;
-        width: 40%;
-        justify-content: center;
-        align-items: center;
-    }
-    p{
-        padding: 0;
-        margin: 0;
-        display: block;
-    }
-    .btn{
-        margin: 0;
-        padding: auto;
-        width: 50%;
-    }
-    .left-col a{
-        display: flex;
-        flex-wrap: wrap;
-    }
+.form-holder a{
+  font-weight: bold;
+  text-align: center;
 }
-/*END OF FOOTER RESPONSIVENESS and style implementation by @thetabyte*/
+
+.curved{
+padding: 0px;
+}
+.box{
+padding: 0%;
+margin: 0 1px;
+}
+.box a{
+  margin: 15%;
+  padding: 0px 0;
+}
+
+.right a{
+  margin-left: 3vw;
+  padding: 2.5vh 0;
+}
+.dropdown-content{
+  position: absolute;
+  left: 30px;
+  min-width: 100px;
+}
+.dropdown-content a {
+  padding: 0px 0px;
+}
+.footer-container{
+    max-width: 100%;
+    margin: auto;
+    padding: 0 15%;
+}
+.newsletter-form{
+    width: 80%;
+}
+.left-col{
+    margin: 10px 0%;
+}
+.left-col a{
+  margin: 0 10px;
+}
+.right-col{
+    margin: 10px 0%;
+}
+
+.rooms-card-holder {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.rooms-card-holder img {
+  width: 30vw;
+  max-height: 100%;
+  border-radius: 20px;
+}
+.room-card {
+  width: 100%;
+  height: 20vh;
+}
+
+.room-card h2 {
+  padding-bottom: 1rem;
+  font-weight: 400;  
+}
+
+.card-content {
+  width: 70%;
+}
+
+.card-content div {
+  width: 50%;
+}
+
+.card-info h2 {
+  font-size: 2vw;
+  line-height: 1vh;
+}
+
+.card-info p {
+  font-size: 1.5vw;
+  line-height: 1.2rem;
+}
+
+.card-price h2 {
+  font-size: 2vw;
+  line-height: 1vh;
+}
+
+.card-price button {
+  border: none;
+  color: #ffffff;
+  background: #06a7df;
+  width: 20vw;
+  height: 4vh; 
+}
+
+
+}
+/*harmburger menu*/
+@media screen and (max-width: 600px) {
+  .nav-div.responsive {position: relative;}
+  .nav-div.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-div.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
