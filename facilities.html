@@ -69,25 +69,28 @@
 		  <a class="next" onclick="changeSlide(1)">&#10095;</a>
 </div>
 <br>
-<!--Start of footer design implementation by @thetabyte-->
+	<!--Start of footer design implementation-->
 <footer>
     <div class="footer-container">
         <div class="left-col">
-            <a href="#">ABOUT US</a>
-		    <a href="#">SERVICES</a>
-		    <a href="#">BOOKINGS</a>
-		    <a href="#">CONTACT US</a>
+            <a id="foot-items" href="#">ABOUT US |</a>
+            <a id="foot-items" href="#">SERVICES |</a>
+            <a id="foot-items" href="#">BOOKINGS |</a>
+            <a id="foot-items" href="#">CONTACT US </a>
         </div>
         <div class="right-col">
-            <p class="small-header">Subscibe for more info</p>
+            
             <form action="" class="newsletter-form">
-                <input type="text" class="txtb" placeholder="Email" required>
+                <label for="submit">Subscribe for more info:</label> <br>
+                <input type="text" class="txtb" id="txtb" placeholder="Email" required>
                 <input type="submit" class="btn" value="Subscribe">
             </form>
         </div>
     </div>
+    <hr>
+
 </footer>
-<!--End of footer design HTML implementation by @thetabyte-->
+<!--End of footer design HTML implementation-->
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
