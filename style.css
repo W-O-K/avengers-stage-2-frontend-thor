@@ -411,6 +411,98 @@ header>a:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
 }
 /* Contact Us ends*/
+
+/*FACILITIES*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+}
+
+h2 img {
+  vertical-align: middle;
+  margin-right: -35px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  overflow: auto;
+  min-height: 200px;
+}
+
+.container #dotsContainer {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.container1 {
+  padding: 0;
+}
+
+.container #dotsContainer .dots {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: white;
+  border: 2px solid orange;
+  cursor: pointer;
+  transition: background-color 0.5s ;
+  margin-top: 50px;
+}
+
+.container #dotsContainer .dots:hover {
+  background-color: orange;
+}
+
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 390px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  height: 350px;
+  padding: 15px;
+}
+
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width:560px) {
+  #dotsContainer {
+    display: none;
+  }
+}
+
+/*FACILITIES END*/
+
+
+
+
 /*Footer design */
   footer{
     background-color: #06A7DF;
