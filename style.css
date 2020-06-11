@@ -506,66 +506,61 @@ h2 img {
 /*Footer design */
   footer{
     background-color: #06A7DF;
-    padding: 10px 0px;
+    padding: 50px;
     font-family: "Nunito Light";
 }
 .footer-container{
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
 }
-.left-col{
-    margin: 20px 0;
-}
-.left-col a{
-    color: black;
-    margin-right: 25px;
-    text-decoration: none;
-    transition: .3s linear;
-    font-size: 1.5vw;
-    font-family: "Nunito Light";
-}
-.left-col a:hover{
-    color: #f2f2f2;
-}
-footer p{
-    text-decoration: none;
-    color: #f2f2f2;
-    font-size: 1.5vw;
-    font-family: "Nunito Light";
+hr{
+  margin-top: 50px;
+ 
 }
 .newsletter-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+}
+.newsletter-form label{
+  font-size: 0.8em;
+  color: #f2f2f2;
 }
 .txtb{
-    flex: 1;
-    padding: 10px 20px;
-    font-size: 1.4vw;
-    color: rgb(29, 26, 26);
-    font-weight: 500;
-    font-family: "Nunito Light";
+  padding: 10px 40px 10px 40px;
 }
 .btn{
-    flex: 1;
-    padding: 10px 20px;
-    font-size: 1.4vw;
-    color: #f2f2f2;
-    font-weight: 400;
-    text-decoration: none;
-    background-color: #F4821E;
-    border: none;
-    font-family: "Nunito Light";
-    cursor: pointer;
-    transition: opacity .3s linear;
+  padding: 10px 20px 10px 20px;
+  background-color: #F4821E;
+  border: solid #F4821E;
+  color: #f9f9f9;
 }
-.btn:hover{
-    opacity: .7;
+.left-col{
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-col a{
+  text-decoration: none;
+  padding-right: 10px;
+  font-size: 0.8em;
+  color: black;
+}
+.left-col a:hover{
+  color: #f2f2f2;
+}
+@media screen and (min-width:601px ) and (max-width: 968px){
+  .footer-container{
+    justify-content: center;
+  }
+  .left-col{
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .foot-items{
+    width: 300px;
+  }
+  .foot-items{
+    padding: 20px 100px 20px 100px;
+  }
 }
 @media screen and (max-width:600px){
   .nav-div a{
@@ -614,24 +609,6 @@ margin: 0 1px;
 .dropdown-content a {
   padding: 0px 0px;
 }
-.footer-container{
-    max-width: 100%;
-    margin: auto;
-    padding: 0 15%;
-}
-.newsletter-form{
-    width: 80%;
-}
-.left-col{
-    margin: 10px 0%;
-}
-.left-col a{
-  margin: 0 10px;
-}
-.right-col{
-    margin: 10px 0%;
-}
-
 .rooms-card-holder {
   width: 95%;
   max-width: 1500px;
@@ -683,7 +660,21 @@ margin: 0 1px;
   width: 20vw;
   height: 4vh; 
 }
+ .footer-container{
+    justify-content: center;
+  }
+  .left-col{
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .foot-items{
+    margin-left: 20px;
 
+
+  }
+  .left-col a{
+    padding-right: 20px;
+  }
 
 }
 /*harmburger menu*/
@@ -699,4 +690,5 @@ margin: 0 1px;
     display: block;
     text-align: left;
   }
+ 
 }
