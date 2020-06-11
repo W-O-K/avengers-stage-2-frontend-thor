@@ -24,3 +24,17 @@ function myFunction() {
     x.className = "nav-div";
   }
 }
+
+var dots;
+
+    dots=[];
+    var dotsContainer=document.getElementById("dotsContainer");
+
+    for(var i=0; i<5; i++) {
+        var dot=document.createElement ("span")
+        dot.classList.add("dots")
+        dotsContainer.append(dot);
+        dots.push(dot);
+
+    }
+
