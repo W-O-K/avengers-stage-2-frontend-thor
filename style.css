@@ -179,6 +179,20 @@ form p{
   display: block;
 } 
 /*FORM IN THE GALLERY*/
+.top-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.explore{
+    color: #06A7DF;
+    text-decoration: none;
+    margin-right: 4vw;
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+}
 
 /* ROOMS CARD SECTION*/
 .rooms-card-holder {
