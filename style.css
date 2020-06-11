@@ -582,6 +582,14 @@ hr{
   }
 }
 @media screen and (max-width:600px){
+  #octavian{
+    font-size:30px;
+}
+#hotels-tag{
+    top:25px;
+    left:75px;
+}
+
   .nav-div a{
     display: none;
 
