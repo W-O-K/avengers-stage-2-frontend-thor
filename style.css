@@ -179,64 +179,6 @@ form p{
   display: block;
 } 
 /*FORM IN THE GALLERY*/
-/* room-section-showcase */
-.room-section {
-  text-transform: uppercase;
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: 300px;
-  font-family: "Nunito Sans", sans-serif;
-}
-.room-section-top {
-  width: 100%;
-  margin-top: 130px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.room-tag {
-  position: relative;
-  color: #06a7df;
-  font-size: 70px;
-  font-weight: 100;
-}
-.room-tag i {
-  font-size: 200px;
-  margin-right: 50px;
-}
-.room-tag p {
-  position: absolute;
-  top: 55px;
-  font-weight: 100;
-  display: inline-block;
-}
-.explore-btn {
-  padding: 40px 180px;
-  font-size: 70px;
-  text-transform: uppercase;
-  font-family: "Nunito Sans", sans-serif;
-  border-radius: 150px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  background-color: #06a7df;
-  color: #ffffff;
-}
-.explore-btn:hover {
-  background-color: #b5d7e2;
-}
-.room-section-showcase {
-  margin-top: 300px;
-  width: 100%;
-}
-/* main showcase area */
-.showcase img {
-  width: 1200px;
-  height: 1200px;
-  border-radius: 50px;
-  transition: transform 0.2s ease-out;
-  cursor: pointer;
-  overflow: hidden;
 
 /* ROOMS CARD SECTION*/
 .rooms-card-holder {
