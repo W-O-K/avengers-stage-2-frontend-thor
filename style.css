@@ -290,6 +290,10 @@ form p{
   padding-right:5vw;  
 }
 
+.nav-div a.active{
+  color: #06A7DF;
+}
+
 .nav-div .icon{
     color:#F4821E;
     display: none;

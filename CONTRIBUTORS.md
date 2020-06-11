@@ -9,8 +9,8 @@
 
 -  [@Eboreime ThankGod](https://github.com/Tk-brainCodes)
 
--  [@Ritika](https://github.com/Ritika-Agrawal811
-)
+-  [@Ritika](https://github.com/Ritika-Agrawal811)
+
 -  [@Operah](https://github.com/operah24)
 
 -  [@thetabyte](https://github.com/thetabyte)
@@ -19,7 +19,6 @@
 
 -  [@Tomilola](https://github.com/olaniyitomilola)
 
--  [@Anthony-Seni](https://github.com/Anthony-Seni)
+-  [@Seni](https://github.com/Anthony-Seni)
 
-
--  
+-  [@seyeOlajuyin](https://github.com/seyeolajuyin)
