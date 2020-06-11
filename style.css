@@ -1,8 +1,7 @@
 * {
-  box-sizing: border-box;
-
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   outline: none;
   /* font-family: "Open Sans", Helvetica, sans-serif; */
 }
@@ -77,119 +76,6 @@
   text-align: center;
 }
 
-
-/* header */
-header > a {
-  float: right;
-  text-decoration: none;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 50px;
-  line-height: 30px;
-  color: #707070;
-  height: 50px;
-  padding-right: 60px;
-  padding-top: 50px;
-}
-
-.menu-bar {
-  width: 24px;
-  height: 3px;
-  background-color: #f4821e;
-  margin-top: 5px;
-}
-
-header {
-  height: 200px;
-  background-color: white;
-  padding: 30px;
-}
-
-#hotel-name {
-  position: relative;
-  padding-left: 30px;
-  top: 5px;
-}
-
-#octavian {
-  position: absolute;
-  font-family: "Great Vibes";
-  font-size: 100px;
-  color: #f4821e;
-}
-
-#hotels-tag {
-  position: absolute;
-  top: 110px;
-  font-size: 50px;
-  font-family: "Nunito Sans";
-  line-height: 20px;
-  left: 105px;
-  color: #06a7df;
-}
-
-header > a:hover {
-  color: #06a7df;
-}
-
-/* room-section-showcase */
-.room-section {
-  text-transform: uppercase;
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: 300px;
-  font-family: "Nunito Sans", sans-serif;
-}
-.room-section-top {
-  width: 100%;
-  margin-top: 130px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.room-tag {
-  position: relative;
-  color: #06a7df;
-  font-size: 70px;
-  font-weight: 100;
-}
-.room-tag i {
-  font-size: 200px;
-  margin-right: 50px;
-}
-.room-tag p {
-  position: absolute;
-  top: 55px;
-  font-weight: 100;
-  display: inline-block;
-}
-.explore-btn {
-  padding: 40px 180px;
-  font-size: 70px;
-  text-transform: uppercase;
-  font-family: "Nunito Sans", sans-serif;
-  border-radius: 150px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  background-color: #06a7df;
-  color: #ffffff;
-}
-.explore-btn:hover {
-  background-color: #b5d7e2;
-}
-.room-section-showcase {
-  margin-top: 300px;
-  width: 100%;
-}
-/* main showcase area */
-.showcase img {
-  width: 1200px;
-  height: 1200px;
-  border-radius: 50px;
-  transition: transform 0.2s ease-out;
-  cursor: pointer;
-  overflow: hidden;
-=======
 
 /*form in the GALLERY begins*/
 .form-holder {
@@ -300,7 +186,6 @@ form p{
   width: 95%;
   max-width: 1500px;
   margin: 0 auto;
-
 }
 
 /* Room Card */
@@ -316,16 +201,6 @@ form p{
   column-gap: 5%;
   align-items: center;
   width: 100%;
-
-  font-size: 70px;
-  font-family: "Nunito Sans", sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  transition: transform 0.2s ease-out;
-
   height: 350px;
   padding: 0.5rem;
   margin-bottom: 2rem;
@@ -389,210 +264,11 @@ form p{
   transition: 0.4s;
   cursor: pointer;
   font-family: "Nunito Light";
-
 }
 
 .card-price button:hover {
   opacity: 0.9;
 }
-.showcase-container p {
-  margin-top: 50px;
-}
-
-/* end */
-
-/*form in the GALLERY begins*/
-.form-holder {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  bottom: 15px;
-  width: 80%;
-  margin: 0 10%;
-  border-radius: 30px 30px 30px 30px;
-}
-.curved {
-  padding: 15px;
-  width: 25%;
-  background-color: white;
-}
-.box {
-  padding: 15px;
-  width: 25%;
-  margin: 0 1px;
-  background-color: white;
-}
-.left {
-  border-radius: 30px 0px 0px 30px;
-  border-color: white;
-}
-.right {
-  border-radius: 0px 30px 30px 0px;
-  background-color: #f4821e;
-}
-.dropdown {
-  border-color: white;
-}
-form p {
-  color: black;
-}
-/*FORM IN THE GALLERY*/
-
-
-/*Css for the form*/
-.email {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  width: 100%;
-  height: auto !important;
-}
-.the-form {
-  width: 460px;
-  padding: 1em 2em;
-  background: rgb(243, 243, 243);
-  border-radius: 4px;
-  border: 1px solid rgb(243, 243, 243);
-}
-.cover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  width: 100%;
-  height: auto !important;
-}
-.first-name {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1em 2em;
-  background: rgb(243, 243, 243);
-  border-radius: 4px;
-  border: 1px solid rgb(243, 243, 243);
-  color: black;
-  margin-right: 20px;
-}
-.last-name {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1em 2em;
-  background: rgb(243, 243, 243);
-  border-radius: 4px;
-  border: 1px solid rgb(243, 243, 243);
-  color: black;
-  padding-right: 20px;
-}
-.subject {
-  width: 460px;
-  padding: 1em 2em;
-  background: rgb(243, 243, 243);
-  border: 1px solid rgb(243, 243, 243);
-  height: 200px;
-}
-.submit {
-  display: flex;
-  padding: 1em 2em;
-  background-color: rgba(255, 166, 0, 0.897);
-  border: 1px solid rgba(255, 166, 0, 0.897);
-  color: white;
-  flex-wrap: wrap;
-  margin-left: 800px;
-  border-radius: 4px;
-  margin-top: 20px;
-}
-/*  FORM ENDS HERE*/
-
-/* ROOMS CARD SECTION*/
-.rooms-card-holder {
-  width: 95%;
-  max-width: 1500px;
-  margin: 0 auto;
-}
-
-/* Room Card */
-.rooms-card-holder img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 61px;
-}
-
-.room-card {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 350px;
-  padding: 0.5rem;
-  margin-bottom: 2rem;
-  justify-content: space-between;
-}
-
-.room-card h2 {
-  padding-bottom: 1rem;
-  font-weight: 900;
-  font-family: "Nunito Bold";
-  text-transform: uppercase;
-}
-
-.card-image {
-  height: 100%;
-  padding-right: 1rem;
-}
-
-.card-content {
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.card-content div {
-  width: 50%;
-}
-
-.card-info h2 {
-  font-size: 1.563rem;
-  line-height: 2.125rem;
-  color: #f4821e;
-}
-
-.card-info p {
-  font-size: 1.375rem;
-  line-height: 1.875rem;
-  color: #707070;
-  font-family: "Nunito Regular";
-}
-
-.card-price {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.card-price h2 {
-  font-size: 1.875rem;
-  line-height: 2.563rem;
-  color: #707070;
-}
-
-.card-price button {
-  border: none;
-  color: #ffffff;
-  background: #06a7df;
-  width: 184px;
-  height: 57px;
-  font-size: 1.375rem;
-  line-height: 1.875;
-  transition: 0.4s;
-  cursor: pointer;
-  font-family: "Nunito Light";
-}
-
-.card-price button:hover {
-  opacity: 0.9;
-}
-
-/* Room Card End */
 
 /* Room Card End */
 
@@ -857,4 +533,3 @@ p{
     }
 }
 /*END OF FOOTER RESPONSIVENESS and style implementation by @thetabyte*/
-
